@@ -52,7 +52,7 @@ no_button.addEventListener("click", () => {
     const banner = document.getElementById("banner");
 
     if (clicks === 0) {
-        banner.src = "public/images/no.gif";
+        banner.src = "no.gif";
         refreshBanner();
     }
 
@@ -82,7 +82,7 @@ no_button.addEventListener("click", () => {
 
 yes_button.addEventListener("click", () => {
     const banner = document.getElementById("banner");
-    banner.src = "public/images/yes.gif";
+    banner.src = "yes.gif";
     refreshBanner();
 
     document.getElementsByClassName("buttons")[0].style.display = "none";
@@ -125,4 +125,5 @@ function changeLanguage() {
             but still YOU CANNOT BACK OUT ❤️
         `;
     }    
+
 }
